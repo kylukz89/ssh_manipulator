@@ -7,7 +7,7 @@ require_once 'SSH.php';
  * Classe responsável pelos métodos gerenciadores 
  * dos comandos que serão executados nos hosts.
  * 
- * @author    Igor Maximo <igor.maximo@redetelecom.com.br>
+ * @author    Igor Maximo <igormaximo_1989@hotmail.com>
  * @date      30/06/2020
  */
 class CommandManipulator extends SSH {
@@ -18,7 +18,7 @@ class CommandManipulator extends SSH {
      * 
      * OBS: Implemente seus comandos nesse método ou crie novos
      * 
-     * @author    Igor Maximo <igor.maximo@redetelecom.com.br>
+     * @author    Igor Maximo <igormaximo_1989@hotmail.com>
      * @date      30/06/2020
      */
     public function set($hostIP, $user, $pass) {
