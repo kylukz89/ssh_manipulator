@@ -18,7 +18,7 @@ abstract class SSH {
      * que aceite esse tipo de conectividade.
      * 
      * @return    array Retorna da solicitação
-     * @author    Igor Maximo <igor.maximo@redetelecom.com.br>
+     * @author    Igor Maximo <igormaximo_1989@hotmail.com>
      * @date      29/06/2020
      */
     public function conectarViaSSH($oltIP, $user, $pass, $port = 22) {
@@ -35,7 +35,7 @@ abstract class SSH {
      * <br>Set executar comando e aguardar a resposta
      * 
      * @return    array Retorna da solicitação
-     * @author    Igor Maximo <igor.maximo@redetelecom.com.br>
+     * @author    Igor Maximo <igormaximo_1989@hotmail.com>
      * @date      30/06/2020
      */
     public function setExecutarComando($comando, $stream, $microSegundo = null) {
@@ -62,7 +62,7 @@ abstract class SSH {
      * <br>Set esperar resposta sleep personalizado
      * 
      * @return    array Retorna da solicitação
-     * @author    Igor Maximo <igor.maximo@redetelecom.com.br>
+     * @author    Igor Maximo <igormaximo_1989@hotmail.com>
      * @date      30/06/2020
      */
     public function setSleep($microSegundo = null) {
